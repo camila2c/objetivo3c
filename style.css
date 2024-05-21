@@ -3,4 +3,30 @@
     @import url(‘https://fonts.googleapis.com/
     css2?family=Chakra+Petch:wght@400;700&amp;display=swap’)
     body { background-color: var(--cor-de-fundo);    color: var(--branco); font-family: ‘Chakra
-    Petch’, sans-serif; }
+    Petch’, sans-serif; }.botoes { display: block;
+    }
+    @media screen and (min-width: 768px) { .botoes { display: flex;
+    }
+    }
+
+
+    .titulo-principal span {
+        color: var(--verde); }
+        .botao { font-family: «Crakra Petch», sans-serif;
+            background-color: var(--botao-inativo);
+            color: var(--branco); display: flex;
+            justify-content: center;
+            padding: 1em;
+            font-size: 18px;
+            align-items: center;
+            width: 100%;
+            }
+            border-bottom: 4px solid var(--botao-ativo);
+            border-left: 2px solid var(--botao-ativo);
+            border-right: 2px solid var(--botao-ativo);
+            border-top: none;
+.botoes { display: block;
+}
+@media screen and (min-width: 768px) { .botoes { display: flex;
+}
+}
