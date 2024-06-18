@@ -15,3 +15,9 @@ botoes[i].classList.add("ativo");
 }
 
 }
+function calculaTempo(tempoObjetivo) {
+    let tempoAtual = new Date();
+    let tempoFinal = tempoObjetivo - tempoAtual;
+    let segundos = tempoFinal / 1000;
+    return segundos;
+}
